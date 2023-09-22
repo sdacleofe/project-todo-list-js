@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  min-height: 100vh;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 300px;
+  width: 100%;
+  flex-grow: 1;
+}
+body .container header {
+  width: 100%;
+  text-align: center;
+}
+body .container header h1 {
+  font-family: "Noto Serif", serif;
+}
+body .container header form {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  height: 30px;
+}
+body .container header form input[type=text] {
+  background-color: white;
+  text-transform: lowercase;
+  color: #000;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-right: none;
+  text-align: left;
+  outline: none;
+}
+body .container header form ::placeholder {
+  color: darkgray;
+  font-size: 0.95em;
+}
+body .container header form i {
+  text-align: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+}
+body .container ul {
+  width: 100%;
+  padding: 0px 0;
+  margin: 0;
+}
+body .container ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 0.75em;
+  padding: 8px;
+  margin: 5px 0;
+  text-transform: lowercase;
+  background-color: black;
+  color: white;
+}
+body .container ul li i {
+  cursor: pointer;
+}
+body .container .empty-list-message {
+  justify-content: center;
+  font-size: 0.65em;
+  min-height: 50px;
+}
+body .container p {
+  height: 100%;
+  text-align: center;
+}
+body .container form.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  gap: 5px;
+}
+body .container form.add input[type=text] {
+  background-color: white;
+  text-transform: lowercase;
+  color: black;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+body .container form.add ::placeholder {
+  color: black;
+  font-size: 0.95em;
+}
+body .container form.add label {
+  font-size: 0.75em;
+}
+body .container form.add p {
+  width: 100%;
+  font-size: 0.45em;
+  margin: 0;
+  text-transform: lowercase;
+  text-align: right;
+}
+body footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+body footer span {
+  font-size: 0.55em;
+  color: black;
+  text-align: center;
+}
+body footer span a {
+  color: black;
+  font-weight: bolder;
+}
+
+.filtered {
+  display: none !important;
+}
+
+/*# sourceMappingURL=index.css.map */
